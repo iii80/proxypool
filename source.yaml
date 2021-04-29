@@ -42,31 +42,6 @@
   options:
     url: https://raw.fastgit.org/freefq/free/master/v2
 
-# 订阅链接
-- type: subscribe
-  options:
-    url: https://sspool.herokuapp.com/ss/sub
-
-# 订阅链接
-- type: subscribe
-  options:
-    url: https://sspool.herokuapp.com/sip002/sub
-
-# 订阅链接
-- type: subscribe
-  options:
-    url: https://sspool.herokuapp.com/ssr/sub
-
-# 订阅链接
-- type: subscribe
-  options:
-    url: https://sspool.herokuapp.com/vmess/sub
-
-# 订阅链接
-- type: subscribe
-  options:
-    url: https://sspool.herokuapp.com/trojan/sub
-
 # 网页模糊抓取
 - type: webfuzz
   options:
@@ -157,7 +132,27 @@
 - type: clash
   options:
     url: https://sspool.herokuapp.com/clash/proxies
-
+    
+# clash格式订阅链接
+- type: clash
+  options:
+    url: https://www.linbaoz.com/clash/proxies
+    
+# clash格式订阅链接
+- type: clash
+  options:
+    url: https://blog.daodewang.org/clash/proxies
+    
+# clash格式订阅链接
+- type: clash
+  options:
+    url: https://proxy.purel.in/clash/proxies
+    
+ # clash格式订阅链接
+- type: clash
+  options:
+    url: https://hello.stgod.com/clash/proxies   
+    
 # 某个网站抓取
 - type: web-freessrxyz
   options:
