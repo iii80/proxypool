@@ -7,6 +7,7 @@
 - type: webfuzzsub
   options:
     url: https://t.me/s/ssrv2taytgshare?before
+
 # 模糊抓取订阅链接
 - type: webfuzzsub
   options:
@@ -37,10 +38,130 @@
   options:
     url: https://raw.fastgit.org/freefq/free/master/ssr
 
-# 订阅链接
+# 订阅链接“www.linbaoz.com”
 - type: subscribe
   options:
-    url: https://raw.fastgit.org/freefq/free/master/v2
+    url: https://www.linbaoz.com/ss/sub
+
+# 订阅链接“www.linbaoz.com”
+- type: subscribe
+  options:
+    url: https://www.linbaoz.com/sip002/sub
+
+# 订阅链接“www.linbaoz.com”
+- type: subscribe
+  options:
+    url: https://www.linbaoz.com/ssr/sub
+
+# 订阅链接“www.linbaoz.com”
+- type: subscribe
+  options:
+    url: https://www.linbaoz.com/vmess/sub	
+
+# 订阅链接“www.linbaoz.com”
+- type: subscribe
+  options:
+    url: https://www.linbaoz.com/trojan/sub
+
+# 订阅链接“sspool.herokuapp.com”
+- type: subscribe
+  options:
+    url: https://sspool.herokuapp.com/ss/sub
+
+# 订阅链接“sspool.herokuapp.com”
+- type: subscribe
+  options:
+    url: https://sspool.herokuapp.com/sip002/sub
+
+# 订阅链接“sspool.herokuapp.com”
+- type: subscribe
+  options:
+    url: https://sspool.herokuapp.com/ssr/sub
+
+# 订阅链接“sspool.herokuapp.com”
+- type: subscribe
+  options:
+    url: https://sspool.herokuapp.com/vmess/sub
+
+# 订阅链接“sspool.herokuapp.com”
+- type: subscribe
+  options:
+    url: https://sspool.herokuapp.com/trojan/sub
+
+# 订阅链接“www.daode.download”
+- type: subscribe
+  options:
+    url: https://blog.daodewang.org/ss/sub
+
+# 订阅链接“www.daode.download”
+- type: subscribe
+  options:
+    url: https://blog.daodewang.org/sip002/sub
+
+# 订阅链接“www.daode.download”
+- type: subscribe
+  options:
+    url: https://blog.daodewang.org/ssr/sub
+
+# 订阅链接“www.daode.download”
+- type: subscribe
+  options:
+    url: https://blog.daodewang.org/vmess/sub
+
+# 订阅链接“www.daode.download”
+- type: subscribe
+  options:
+    url: https://blog.daodewang.org/trojan/sub
+
+# 订阅链接“proxy.purel.in”
+- type: subscribe
+  options:
+    url: https://proxy.purel.in/ss/sub
+
+# 订阅链接“proxy.purel.in”
+- type: subscribe
+  options:
+    url: https://proxy.purel.in/sip002/sub
+
+# 订阅链接“proxy.purel.in”
+- type: subscribe
+  options:
+    url: https://proxy.purel.in/ssr/sub
+
+# 订阅链接“proxy.purel.in”
+- type: subscribe
+  options:
+    url: https://proxy.purel.in/vmess/sub
+
+# 订阅链接“proxy.purel.in”
+- type: subscribe
+  options:
+    url: https://proxy.purel.in/trojan/sub
+
+# 订阅链接“fu.stgod.com”
+- type: subscribe
+  options:
+    url: https://hello.stgod.com/ss/sub
+
+# 订阅链接“fu.stgod.com”
+- type: subscribe
+  options:
+    url: https://hello.stgod.com/sip002/sub
+
+# 订阅链接“fu.stgod.com”
+- type: subscribe
+  options:
+    url: https://hello.stgod.com/ssr/sub
+
+# 订阅链接“fu.stgod.com”
+- type: subscribe
+  options:
+    url: https://hello.stgod.com/vmess/sub
+
+# 订阅链接“fu.stgod.com”
+- type: subscribe
+  options:
+    url: https://hello.stgod.com/trojan/sub
 
 # 网页模糊抓取
 - type: webfuzz
@@ -127,31 +248,6 @@
 - type: clash
   options:
     url: https://raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml
-
-# clash格式订阅链接
-- type: clash
-  options:
-    url: https://sspool.herokuapp.com/clash/proxies
-    
-# clash格式订阅链接
-- type: clash
-  options:
-    url: https://www.linbaoz.com/clash/proxies
-    
-# clash格式订阅链接
-- type: clash
-  options:
-    url: https://blog.daodewang.org/clash/proxies
-    
-# clash格式订阅链接
-- type: clash
-  options:
-    url: https://proxy.purel.in/clash/proxies
-    
- # clash格式订阅链接
-- type: clash
-  options:
-    url: https://hello.stgod.com/clash/proxies   
     
 # 某个网站抓取
 - type: web-freessrxyz
